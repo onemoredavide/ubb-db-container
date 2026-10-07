@@ -1,0 +1,17 @@
+{
+  "name": "ubb-db-container",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "db:up": "docker compose up -d",
+    "db:down": "docker compose down",
+    "db:studio": "drizzle-kit studio"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.1",
+    "drizzle-kit": "^0.31.11",
+    "drizzle-orm": "^0.45.3",
+    "mysql2": "^3.24.5",
+    "typescript": "^7.0.2"
+  }
+}
